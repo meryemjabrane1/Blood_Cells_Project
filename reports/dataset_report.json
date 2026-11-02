@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-11-02T16:54:35.547917+00:00",
+  "dataset": "blood-smear-yolo26-data",
+  "classes": [
+    {
+      "id": 0,
+      "name": "WBC"
+    },
+    {
+      "id": 1,
+      "name": "RBC"
+    },
+    {
+      "id": 2,
+      "name": "Platelets"
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 882,
+      "annotated_cells": 12510,
+      "class_counts": {
+        "WBC": 908,
+        "RBC": 11220,
+        "Platelets": 382
+      },
+      "images_missing_labels": 0,
+      "orphan_labels": 0
+    },
+    "val": {
+      "images": 252,
+      "annotated_cells": 3752,
+      "class_counts": {
+        "WBC": 257,
+        "RBC": 3383,
+        "Platelets": 112
+      },
+      "images_missing_labels": 0,
+      "orphan_labels": 0
+    },
+    "test": {
+      "images": 126,
+      "annotated_cells": 1881,
+      "class_counts": {
+        "WBC": 133,
+        "RBC": 1699,
+        "Platelets": 49
+      },
+      "images_missing_labels": 0,
+      "orphan_labels": 0
+    }
+  },
+  "totals": {
+    "images": 1260,
+    "annotated_cells": 18143,
+    "class_counts": {
+      "WBC": 1298,
+      "RBC": 16302,
+      "Platelets": 543
+    }
+  },
+  "image_dimensions": {
+    "width_range": [
+      256,
+      640
+    ],
+    "height_range": [
+      256,
+      575
+    ]
+  },
+  "validation": {
+    "images_missing_labels": 0,
+    "orphan_labels": 0
+  }
+}

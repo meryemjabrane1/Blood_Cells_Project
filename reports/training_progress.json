@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "epoch": 100,
+  "total_epochs": 100,
+  "updated_at": "2026-11-02T17:17:28.556397+00:00",
+  "performance": {
+    "metrics/precision(B)": 0.986803137240131,
+    "metrics/recall(B)": 0.9606344907631299,
+    "metrics/mAP50(B)": 0.9858409447436385,
+    "metrics/mAP50-95(B)": 0.8656559484273887,
+    "fitness": 0.8656559484273887
+  }
+}

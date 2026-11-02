@@ -1,0 +1,15 @@
+{
+  "id": "meryemjabrane/blood-smear-yolo26-fine-tuning",
+  "title": "Blood Smear YOLO26 Fine-tuning",
+  "code_file": "train.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "meryemjabrane/blood-smear-yolo26-data"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

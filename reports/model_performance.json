@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-02T17:17:28.523225+00:00",
+  "model": "yolo26n.pt",
+  "weights": "runs/yolo26n/weights/best.pt",
+  "test_split": "test",
+  "metrics": {
+    "metrics/precision(B)": 0.986803137240131,
+    "metrics/recall(B)": 0.9606344907631299,
+    "metrics/mAP50(B)": 0.9858409447436385,
+    "metrics/mAP50-95(B)": 0.8656559484273887,
+    "fitness": 0.8656559484273887
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "WBC",
+      "precision": 0.9995581492496489,
+      "recall": 1.0,
+      "map50": 0.995,
+      "map50_95": 0.8909857146153675
+    },
+    {
+      "class_id": 1,
+      "class_name": "RBC",
+      "precision": 0.9709841735298946,
+      "recall": 0.943127962085308,
+      "map50": 0.9898757754073858,
+      "map50_95": 0.9098993849901454
+    },
+    {
+      "class_id": 2,
+      "class_name": "Platelets",
+      "precision": 0.9898670889408494,
+      "recall": 0.9387755102040817,
+      "map50": 0.9726470588235294,
+      "map50_95": 0.7960827456766528
+    }
+  ],
+  "test_images": 126,
+  "class_names": [
+    "WBC",
+    "RBC",
+    "Platelets"
+  ]
+}

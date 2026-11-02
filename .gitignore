@@ -1,0 +1,23 @@
+.env
+.kaggle/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Input dataset and downloaded archive
+TXL-PBC/
+TXL-PBC.zip
+
+# Training artifacts and model weights
+runs/
+outputs/
+*.pt
+*.onnx
+*.engine
+reports/training_history.csv
+reports/training_plots/
+
+# Jupyter runtime metadata
+.ipynb_checkpoints/
